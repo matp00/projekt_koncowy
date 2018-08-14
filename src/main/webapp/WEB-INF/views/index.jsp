@@ -12,29 +12,15 @@
     <title>Title</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="resources/js/app.js" type="text/javascript"></script>
-    <link src="resources/css/style.css" type="text/css">
+    <link rel="stylesheet" href = <c:url value = "/resources/css/index.css"/>>
     <style>
-        c
-       .kafelek{ width: 300px; height: 200px; float: left; margin: 10px; border-radius: 20px;
-           background-color: white; border: 1px black solid; opacity: 0.3;}
-        .kafelekl{ width: 300px; height: 200px; float: left; margin: 10px; border-radius: 20px;
-            background-color: white; border: 1px black solid; opacity: 0.3;}
-        #container{ width:645px;  margin-left: auto; margin-right: auto; margin-top: 100px;}
-        .ramka {position:relative; }
-        p { color: grey; line-height: 150px; text-align: center;font-size: 25px; opacity: 1;}
-        .kafelek:hover{background-color: ghostwhite; opacity: 0.6;}
-        .kafelek:hover > p {color: grey; opacity: 1;}
-        .kafelekl:hover{ background-color: ghostwhite;
-            opacity: 0.6;}
-
-        .formchild { height: 25px; margin-left: auto; margin-right: auto; border: 1px black solid; width: 80%; margin-bottom: 10px; border-radius: 30px; text-align: center;
-            line-height: 25px;}
-        .form {margin-top: 70px;}
-        .login {background-color: white; color:grey; border: 1px black solid; }
-        .login:hover{background-color: rgba(232,147,72); color: white; }
-        a {text-decoration: none;}
-
+        body
+        {
+            background-image: url("resources/images/arena.jpg");
+            background-size: 100%;
+        }
     </style>
+
 </head>
 <body>
 <div >

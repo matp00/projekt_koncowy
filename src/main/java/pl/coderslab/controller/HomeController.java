@@ -11,7 +11,7 @@ import javax.servlet.http.HttpSession;
 
 @Controller
 public class HomeController {
-    @GetMapping("/home")
+    @GetMapping("/")
     public String home(Model model, HttpSession ses){
         User user = (User)ses.getAttribute("user");
         model.addAttribute("user", user);

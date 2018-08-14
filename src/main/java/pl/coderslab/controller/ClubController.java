@@ -72,7 +72,7 @@ public class ClubController {
         if(result.hasErrors()) return "add";
         club.setRating(0.0);
         clubRepository.save(club);
-        return "redirect:/home";
+        return "redirect:/";
     }
 
     @GetMapping("/validate/{id}")
@@ -86,7 +86,7 @@ public class ClubController {
         if(result.hasErrors()) return "validate";
         club.setValidated(true);
         clubRepository.save(club);
-        return "redirect:/home";
+        return "redirect:/";
     }
 
 }

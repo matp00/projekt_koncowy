@@ -28,38 +28,9 @@
     <![endif]-->
     <title>Title</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href = <c:url value = "/resources/css/subpage.css"/>>
     <style>
         body {background-color: #dddddd;}
-        #banner {position: relative; width: 1102px;height: 50%; margin-right: auto; margin-left: auto;
-            border: 1px black solid; background-color: white; border-radius: 20px; text-align: center;}
-        ol {padding: 0;margin: 0;list-style-type: none;font-size: 18px;height: 35px;line-height: 40px;display: inline-block;}
-        #navbar{ position: absolute; left: 0; bottom: 0; width: 100%;}
-        ol a {color: #6c757d; text-decoration: none;display: block;}
-        ul a {color: black;text-decoration: none;display: block;}
-        ol > li {float: left;width: 275px;height: 35px;text-align: center;}
-        ol > li:hover {background-color: #dddddd;}
-        ol > li:hover > a {color: #000000; text-decoration: none;}
-        ol > li > ul {list-style-type: none;padding: 0;margin: 0;height: 40px;display: none;}
-        ol > li:hover > ul {display: block; }
-        ol > li > ul > li {position: relative;z-index: 100;border-top:1px solid black;background-color: #dddddd;}
-        ol > li > ul > li:hover {background-color: darkgrey;}
-        ol > li > ul > li:hover > a {color: black;}
-        .btn-group {position: absolute; top: 0px; right: 0px; margin:10px;}
-        h1{margin-top: 105px; color: rgba(232,147,72); font-size: 60px;}
-        .valid {width:100%; height: 100px; margin-right: auto; margin-left: auto; margin-top: 10px;
-            border: 1px black solid; background-color: white; border-radius: 20px; position: relative;}
-        .notvalid  { opacity: 0.5;}
-        .sticky
-        {width: 100%;position: fixed;left: 0;top: 0;z-index: 100;}
-        .hidden{display: none;}
-        #map {position: relative; width: 1102px;height: 100%; margin-right: auto; margin-left: auto;
-            border: 1px black solid; background-color: white; border-radius: 20px; text-align: center; margin-top: 10px;}
-        img {width: 120px; height: 98px;}
-        .img { float: left; position: absolute; left:200px; bottom: 0px;}
-        .first {position: absolute; bottom: 60px; left: 500px; font-weight: 700; font-size: 20px;}
-        .second {position: absolute; bottom: 35px; left: 500px;}
-        .third {position: absolute; bottom: 10px; left: 500px;}
-        #button {position: absolute; bottom: 10px;right: 100px;}
     </style>
 </head>
 <body>

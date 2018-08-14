@@ -38,7 +38,7 @@ public class LoginController {
             return "login";
         }
         ses.setAttribute("user", userRepository.findByEmail(user.getEmail()));
-        return "redirect:/home";
+        return "redirect:/";
     }
 
     @GetMapping("/register")
@@ -58,7 +58,7 @@ public class LoginController {
             return "register"; }
         userService.addUser(user);
         ses.setAttribute("user", userRepository.findByEmail(user.getEmail()));
-        return "redirect:/home";
+        return "redirect:/";
     }
 
     @GetMapping("/edit/{id}")
@@ -85,7 +85,7 @@ public class LoginController {
     @GetMapping("/logout")
     public String logout(Model model, HttpSession ses){
         ses.setAttribute("user", null);
-        return "redirect:/home";
+        return "redirect:/";
     }
 
 
